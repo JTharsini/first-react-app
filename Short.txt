@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=SqcY0GlETPk&t=952s&ab_channel=ProgrammingwithMosh
+
+-node version > 16
+-create a new project: npm create vite@4.1.0
+-cd first-react-app
+-npm install
+-run server: npm run dev
+-open visual studio code: code .
+-Props vs State
+  Props											State
+  -------										---------
+1.Input/argument passed to a component			Internal data managed by component which can change over time
+2.Similar to functional argument				Similar to local variable
+3.Should treat as immutable						Mutable
+4.Cause a re-render                             Cause a re-render
+-in Extension panel, ES7+ (install plugin)
+-create a file & type rafce: it will create a react arrow function with export component
+-Once React developer tools are installed there will be two additional components in developer tools:
+components, profiler
+-In components tab hierarchy of components are visible
